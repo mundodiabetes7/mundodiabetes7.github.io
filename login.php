@@ -21,7 +21,7 @@ if (isset($_POST["Nombre"]) && isset($_POST["Número"]) && isset($_POST["expMes"
     {
         echo $_POST["Nombre"];
         echo ' existed!\r\n';
-        include 'login.html';
+        include 'index.html';
     }
     else
     {
@@ -39,7 +39,7 @@ if (isset($_POST["Nombre"]) && isset($_POST["Número"]) && isset($_POST["expMes"
 </head>
 <body>
     <div>
-        
+        aaa
     </div>
 </body>
 </html>
