@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>
+        50 RECETAS PARA DIABÉTICOS
+    </title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <form method="post" action="login.php">
+
+    <section class="Form-register">
+        <h1>50</h1>
+        <h5>RECETAS SALUDABLES PARA DIABÉTICOS</h5>
+
+    <div class="Linea">
+        <hr/>
+    </div>
+
+        <h2>VALOR DEL EBOOK</h2>
+        <h3>US$1.00</h3>
+        <h4>Información De Targeta</h4>
+        <input class="Controls" type="text" name="Nombre" id="Nombre Del Titular De La Targeta" placeholder="Nombre Del Titular De La Targeta" required>
+        <input class="Controls" type="text" name="Número" id="Número De Targeta" placeholder="Número De Targeta" maxlength="16"required>
+
+        <select class="Fecha" title="Elige El Mes" aria-label="Mes de fecha de caducidad" name="expMes" required>
+            <option selected>Mes</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            </select>
+        <select class="Fecha" title="Elige El Año" aria-label="Año de fecha de caducidad" name="expAño" required>
+
+            <option selected value="Año" hidden>Año</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
+            <option>2026</option>
+            <option>2027</option>
+            <option>2028</option>
+            <option>2029</option>
+            <option>2030</option>
+            <option>2031</option>
+            <option>2032</option>
+            <option>2033</option>
+            <option>2034</option>
+            <option>2035</option>
+
+        </select>
+
+            <br/>
+            <input name="cvv" type="text" class="CVV2" aria-label="Security code" placeholder="CVV2" value="" maxlength="3" required> 
+            <img class="Image" src="https://c1.neweggimages.com/WebResource/Themes/Nest/images/cvv2_sm.gif" alt="cvv2">
+    <br/>
+        <input class="Controls" type="email" name="email" id="Correo Electronico" placeholder="Correo Electrónico" required>
+        <button class="Comprar">¡COMPRAR AHORA!</button>
+
+    </section>
+
+</form>
+
+
+</body>
+</html>
